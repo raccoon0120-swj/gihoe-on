@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import official from './official.json';
+import official from './officialData';
 import './landing.css';
 import Tutorial from './Tutorial';
 

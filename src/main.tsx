@@ -21,7 +21,9 @@ import { officialDeadline } from "./Calendar";
 import OfficialFeed from "./OfficialFeed";
 import ProfilePage, { emptyProfile } from "./Profile";
 import type { Profile } from "./Profile";
-import officialData from "./official.json";
+import officialData from "./officialData";
+import { normalizeInterests } from "./interests";
+import { normalizeExperiences } from "./recommendation";
 import { recommend } from "./recommendation";
 import { inferSchool } from "./academics";
 import "./style.css";
@@ -60,15 +62,17 @@ const sample: State = {
   saved: ["ideathon"],
   checks: { ideathon: ["팀원 확정", "신청서 작성"] },
 };
+// Saved data from before the interest/experience split keeps working.
+const migrate = (s: State): State => ({ ...s, interests: normalizeInterests(s.interests) });
 function initial(): State {
   try {
     const v = localStorage.getItem(key);
     return v
-      ? { ...blank, ...JSON.parse(v) }
+      ? migrate({ ...blank, ...JSON.parse(v) })
       : demo && params.get("view") === "prep"
         ? sample
         : demo && params.get("view") === "recommend"
-          ? { ...blank, interests: ["공모전"] }
+          ? { ...blank, interests: ["공모전", "해커톤"] }
           : blank;
   } catch {
     return blank;
@@ -85,13 +89,13 @@ function App({
   user: User | null;
   cloudData?: { state: State; profile: Profile };
 }) {
-  const [state, set] = useState<State>(() => cloudData?.state ?? initial()),
+  const [state, set] = useState<State>(() => cloudData?.state ? migrate(cloudData.state) : initial()),
     [page, setPage] = useState(
       location.hash.slice(2) ||
         (params.get("view") === "prep" ? "prep" : "home"),
     ),
     [profile, setProfile] = useState<Profile>(() => {
-      if (cloudData) return { ...emptyProfile, ...cloudData.profile };
+      if (cloudData) { const p = { ...emptyProfile, ...cloudData.profile }; return { ...p, experiences: normalizeExperiences(p.experiences) }; }
       try {
         const saved = JSON.parse(
           localStorage.getItem(key + "-profile") || "{}",
@@ -100,6 +104,7 @@ function App({
           ...emptyProfile,
           ...saved,
           school: saved.school || inferSchool(saved.major || ""),
+          experiences: normalizeExperiences(saved.experiences),
         };
       } catch {
         return emptyProfile;

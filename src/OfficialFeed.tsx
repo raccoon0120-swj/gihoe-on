@@ -4,7 +4,8 @@ import NoticeSummary from './NoticeSummary';
 import {assessEligibility} from './eligibility';
 import {officialDeadline} from './Calendar';
 import type {SavedOfficial} from './Calendar';
-import data from './official.json';
+import data from './officialData';
+import {interestTags} from './interests';
 import {feedClosed} from './opportunities';
 import type {Profile} from './Profile';
 import {experienceAreas,recommend} from './recommendation';
@@ -24,7 +25,7 @@ export default function OfficialFeed({interests,profile,demo,saved,onSave}:{inte
  return <section className="section official-feed"><div className="sectionhead"><div><span className="sectionnum">CAMPUS NOTICE / 실제 공고</span><h2>학교의 새로운 소식 <i>{list.length}</i></h2><p>전공·경험·관심 분야와 관련된 공고부터 표시합니다. 신청 조건은 공식 원문에서 확인해 주세요.</p></div></div>
  <div className="feed-meta"><span>최종 수집 {data.checkedAt} · {data.scope}</span><span>제목 키워드 기반 추천 · 신청 자격이나 수상 예측 아님</span></div>
  <div className="filter-panel"><div className="filter-header"><strong>원하는 공고 찾기</strong><button onClick={clear}>필터 초기화 ↺</button></div><div className="filter-grid">
- {select('공고 유형',category,setCategory,['전체','장학금','공모전','교내 활동','자격증·어학','취업·멘토링'])}
+ {select('공고 유형',category,setCategory,['전체',...interestTags])}
  {select('출처',source,setSource,['전체','한경국립대학교 장학공지','한경국립대학교 한경공지','굿길 비교과 프로그램'])}
  {select('주제·경험 분야',topic,setTopic,['전체',...experienceAreas])}
  {select('개설 장소',campus,setCampus,['전체','안성','평택'])}

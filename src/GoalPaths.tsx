@@ -6,7 +6,7 @@ import type {SavedOfficial} from './Calendar';
 import type {Profile} from './Profile';
 import NoticeSummary from './NoticeSummary';
 import {officialDeadline,officialUrl} from './Calendar';
-import officialData from './official.json';
+import officialData from './officialData';
 import './planning.css';
 
 type Goal={id:string; title:string; keywords:string[]; description:string};

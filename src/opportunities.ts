@@ -1,5 +1,6 @@
 import legacy from './notices.json';
 import external from './external.json';
+import {tagsFor} from './interests';
 
 export const DEMO_DATE='2026-11-25';
 export const demoNow=()=>new Date(`${DEMO_DATE}T12:00:00+09:00`);
@@ -15,7 +16,7 @@ const extra:Opportunity[] = [
  {id:'demo-hackathon',title:'지역 문제 해결 해커톤',category:'성장',tags:['공모전'],deadline:'2026-12-27',target:'대학생 (시연 설정)',condition:'팀 구성 및 참가 조건 확인',department:'가상 해커톤 운영기관',items:['일정 확인','팀원 모집','서비스 기획안 준비'],submission:'공식 공고에서 확인',source:'발표 시연용 예시',official:false,scope:'교외',kind:'해커톤',participation:'팀 참가 여부 확인 필요',checkedAt:'해당 없음',demoOnly:true}
 ];
 const externalOpportunities: Opportunity[] = external.items.map(n => ({...n, category:'성장', tags:['공모전'], target:n.target, condition:n.timeNote, items:['일정 확인','참가 조건 확인','신청 준비'], submission:'상세 공고 확인', official:true, scope:'교외', participation:'원문 확인', checkedAt:n.checkedAt || external.checkedAt}));
-export const opportunities=[...existing,...extra,...externalOpportunities];
+export const opportunities=[...existing,...extra,...externalOpportunities].map(n=>({...n,tags:tagsFor(n.title,n.tags,n.kind==='해커톤'?n.kind:'')})); // only the hackathon kind is specific enough to tag by
 export const visibleOpportunities=(demo:boolean)=>opportunities.filter(n=>demo||!n.demoOnly);
 export function status(n:Opportunity,demo:boolean){if(n.override)return n.override; const now=demo?demoNow():new Date(); const end=new Date(n.deadlineAt||`${n.deadline}T23:59:59.999+09:00`);return end.getTime()<now.getTime()?'마감일 지남 · 원문 확인':n.startDate&&now.getTime()<new Date(`${n.startDate}T00:00:00+09:00`).getTime()?'접수 예정 · 원문 확인':n.timeNote?'마감일 기준 · 원문 확인':'마감 전 · 모집 확인 필요'}
 export const isClosed=(n:Opportunity,demo:boolean)=>['모집 마감','마감일 지남 · 원문 확인'].includes(status(n,demo));
