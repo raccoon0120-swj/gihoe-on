@@ -2,14 +2,14 @@ import {useEffect,useState} from 'react';
 import DeadlineBadge,{deadlineWarning} from './DeadlineBadge';
 import {officialDeadline} from './Calendar';
 import type {SavedOfficial} from './Calendar';
-import {isClosed} from './opportunities';
+import {demoNow,isClosed} from './opportunities';
 import type {Opportunity} from './opportunities';
 import './planning.css';
 
 export default function NoticeAlerts({demo,opportunities,official,onPrep}:{demo:boolean;opportunities:Opportunity[];official:SavedOfficial[];onPrep:()=>void}){
  const [now,setNow]=useState(()=>new Date());
  useEffect(()=>{const timer=window.setInterval(()=>setNow(new Date()),60_000);return()=>window.clearInterval(timer)},[]);
- const clock=demo?new Date('2026-11-10T12:00:00+09:00'):now;
+ const clock=demo?demoNow():now;
  const items=[...opportunities.map(n=>({id:n.id,title:n.title,deadline:n.deadline,deadlineAt:n.deadlineAt,closed:isClosed(n,demo)})),...official.map(n=>({id:n.id,title:n.title,deadline:officialDeadline(n),deadlineAt:undefined,closed:false}))]
   .map(item=>({...item,warning:deadlineWarning(item.deadline,clock,item.deadlineAt,item.closed)})).filter(item=>item.warning).sort((a,b)=>(a.warning?.days||0)-(b.warning?.days||0));
  if(!items.length)return null;

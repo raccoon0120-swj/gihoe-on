@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from 'react';
 import DeadlineBadge from './DeadlineBadge';
-import {isClosed} from './opportunities';
+import {DEMO_DATE,isClosed} from './opportunities';
 import type { Opportunity } from './opportunities';
 import './calendar.css';
 
@@ -17,7 +17,7 @@ export function officialUrl(item: SavedOfficial) {
 }
 type Props = { demo: boolean; events: CalendarEvent[]; onEvents: (events: CalendarEvent[]) => void; opportunities: Opportunity[]; official: SavedOfficial[]; onDetail: (id: string) => void; onExplore: () => void };
 export default function Calendar({ demo, events, onEvents, opportunities, official, onDetail, onExplore }: Props) {
-  const today = demo ? '2026-11-10' : new Intl.DateTimeFormat('en-CA', {timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+  const today = demo ? DEMO_DATE : new Intl.DateTimeFormat('en-CA', {timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
   const [selected, setSelected] = useState(today);
   const [month, setMonth] = useState(today.slice(0,7));
   const [title, setTitle] = useState('');

@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
+import {demoNow} from './opportunities';
 
 const ClockContext = createContext<Date | null>(null);
 export function DeadlineClock({children}:{children:ReactNode}) {
@@ -24,7 +25,7 @@ export function deadlineWarning(deadline: string | null | undefined, now: Date, 
 }
 export default function DeadlineBadge({deadline,deadlineAt,demo,closed=false}:{deadline?:string|null;deadlineAt?:string;demo:boolean;closed?:boolean}) {
   const clock=useContext(ClockContext);
-  const info=deadlineWarning(deadline,demo?new Date('2026-11-10T12:00:00+09:00'):(clock || new Date()),deadlineAt,closed);
+  const info=deadlineWarning(deadline,demo?demoNow():(clock || new Date()),deadlineAt,closed);
   if (!info) return null;
   const label=info.days===0?'오늘 마감':`마감 D-${info.days}`;
   return <span className={`deadline-alert ${info.level}`} aria-label={`${info.level==='urgent'?'마감 임박':'마감 주의'}: ${label}`}><i aria-hidden="true"/>{label}</span>;

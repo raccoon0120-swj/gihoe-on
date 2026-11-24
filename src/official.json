@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-10 01:54 KST",
+  "checkedAt": "2026-11-24 15:58 KST",
   "scope": "학교 한경공지·장학공지 첫 페이지 및 굿길 첫 화면의 공개 목록",
   "items": [
     {
@@ -32,8 +32,137 @@
       "kind": "school"
     },
     {
+      "id": "hknu-100277",
+      "title": "[교외장학금] 2027년도 19기 에몬스 장학생 모집 안내 새글",
+      "source": "한경국립대학교 장학공지",
+      "category": "경제적 지원",
+      "tags": [
+        "장학금",
+        "교내 활동"
+      ],
+      "date": "2026.11.24",
+      "target": "원문에서 확인",
+      "condition": "원문에서 확인",
+      "url": "https://www.hknu.ac.kr/bbs/kor/71/100277/artclView.do",
+      "kind": "school"
+    },
+    {
+      "id": "hknu-100255",
+      "title": "[국가장학금] 2027학년도 1학기 국가장학금 1차 신청 안내(~27.1.7. 18:00까 새글",
+      "source": "한경국립대학교 장학공지",
+      "category": "경제적 지원",
+      "tags": [
+        "장학금"
+      ],
+      "date": "2026.11.23",
+      "target": "원문에서 확인",
+      "condition": "원문에서 확인",
+      "url": "https://www.hknu.ac.kr/bbs/kor/71/100255/artclView.do",
+      "kind": "school"
+    },
+    {
+      "id": "hknu-100251",
+      "title": "[국가근로] 2027학년도 1학기 국가근로장학금 신청기간 안내 새글",
+      "source": "한경국립대학교 장학공지",
+      "category": "경제적 지원",
+      "tags": [
+        "장학금"
+      ],
+      "date": "2026.11.23",
+      "target": "원문에서 확인",
+      "condition": "원문에서 확인",
+      "url": "https://www.hknu.ac.kr/bbs/kor/71/100251/artclView.do",
+      "kind": "school"
+    },
+    {
+      "id": "hknu-100190",
+      "title": "2026학년도 2학기 경제사정 곤란 대학생 장학금 지원계획 안내 새글",
+      "source": "한경국립대학교 장학공지",
+      "category": "경제적 지원",
+      "tags": [
+        "장학금"
+      ],
+      "date": "2026.11.19",
+      "target": "원문에서 확인",
+      "condition": "원문에서 확인",
+      "url": "https://www.hknu.ac.kr/bbs/kor/71/100190/artclView.do",
+      "kind": "school"
+    },
+    {
+      "id": "hknu-100110",
+      "title": "[모집 중] 2026학년도 2학기 교외 국가근로장학생 추가 모집 안내(양진초등학교 병설유치",
+      "source": "한경국립대학교 장학공지",
+      "category": "경제적 지원",
+      "tags": [
+        "장학금",
+        "교내 활동"
+      ],
+      "date": "2026.11.17",
+      "target": "원문에서 확인",
+      "condition": "원문에서 확인",
+      "url": "https://www.hknu.ac.kr/bbs/kor/71/100110/artclView.do",
+      "kind": "school"
+    },
+    {
+      "id": "hknu-100103",
+      "title": "[모집 중] 2026학년도 2학기 교외 국가근로장학생 추가 모집 안내(안성여자중학교)",
+      "source": "한경국립대학교 장학공지",
+      "category": "경제적 지원",
+      "tags": [
+        "장학금",
+        "교내 활동"
+      ],
+      "date": "2026.11.17",
+      "target": "원문에서 확인",
+      "condition": "원문에서 확인",
+      "url": "https://www.hknu.ac.kr/bbs/kor/71/100103/artclView.do",
+      "kind": "school"
+    },
+    {
+      "id": "hknu-100089",
+      "title": "[한국장학재단] 2026학년도 국가우수장학사업(이공계) 일시지원(한 학기 지원) 유형 장학",
+      "source": "한경국립대학교 장학공지",
+      "category": "경제적 지원",
+      "tags": [
+        "장학금"
+      ],
+      "date": "2026.11.16",
+      "target": "원문에서 확인",
+      "condition": "원문에서 확인",
+      "url": "https://www.hknu.ac.kr/bbs/kor/71/100089/artclView.do",
+      "kind": "school"
+    },
+    {
+      "id": "hknu-100057",
+      "title": "[교외장학금] 미래 건설교통신기술인 장학사업 안내",
+      "source": "한경국립대학교 장학공지",
+      "category": "경제적 지원",
+      "tags": [
+        "장학금"
+      ],
+      "date": "2026.11.13",
+      "target": "원문에서 확인",
+      "condition": "원문에서 확인",
+      "url": "https://www.hknu.ac.kr/bbs/kor/71/100057/artclView.do",
+      "kind": "school"
+    },
+    {
+      "id": "hknu-100013",
+      "title": "[교외장학금] 2026년 대학생 봉사자 연계 지역돌봄 지원사업(겨울방학)",
+      "source": "한경국립대학교 장학공지",
+      "category": "경제적 지원",
+      "tags": [
+        "장학금"
+      ],
+      "date": "2026.11.12",
+      "target": "원문에서 확인",
+      "condition": "원문에서 확인",
+      "url": "https://www.hknu.ac.kr/bbs/kor/71/100013/artclView.do",
+      "kind": "school"
+    },
+    {
       "id": "hknu-99796",
-      "title": "학자금 중복지원, 미리 확인하고 예방하세요! 새글",
+      "title": "학자금 중복지원, 미리 확인하고 예방하세요!",
       "source": "한경국립대학교 장학공지",
       "category": "경제적 지원",
       "tags": [
@@ -46,282 +175,220 @@
       "kind": "school"
     },
     {
-      "id": "hknu-99704",
-      "title": "[국가근로] 2026학년도 국가근로장학금 동계방학 집중근로 프로그램 희망근로지 학생 신청",
-      "source": "한경국립대학교 장학공지",
-      "category": "경제적 지원",
-      "tags": [
-        "장학금",
-        "교내 활동"
-      ],
-      "date": "2026.10.29",
-      "target": "원문에서 확인",
-      "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/71/99704/artclView.do",
-      "kind": "school"
-    },
-    {
-      "id": "hknu-99696",
-      "title": "[교외장학금] 2026년도 통영시 저소득 대학생 장학금 지원대상자 선발 안내",
-      "source": "한경국립대학교 장학공지",
-      "category": "경제적 지원",
-      "tags": [
-        "장학금"
-      ],
-      "date": "2026.10.29",
-      "target": "원문에서 확인",
-      "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/71/99696/artclView.do",
-      "kind": "school"
-    },
-    {
-      "id": "hknu-99662",
-      "title": "[교외장학금] 2026년도 하반기 강화군 대학생 등록금 지원사업 안내",
-      "source": "한경국립대학교 장학공지",
-      "category": "경제적 지원",
-      "tags": [
-        "장학금"
-      ],
-      "date": "2026.10.27",
-      "target": "원문에서 확인",
-      "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/71/99662/artclView.do",
-      "kind": "school"
-    },
-    {
-      "id": "hknu-99575",
-      "title": "[교외장학금] 2026년 2학기 한국선원복지고용센터 선원가족장학사업 안내(기간연장)",
-      "source": "한경국립대학교 장학공지",
-      "category": "경제적 지원",
-      "tags": [
-        "장학금"
-      ],
-      "date": "2026.10.23",
-      "target": "원문에서 확인",
-      "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/71/99575/artclView.do",
-      "kind": "school"
-    },
-    {
-      "id": "hknu-99550",
-      "title": "[한국장학재단] 2026학년도 2학기 푸른등대 기부장학금(2차) 신규장학생 선발 안내",
-      "source": "한경국립대학교 장학공지",
-      "category": "경제적 지원",
-      "tags": [
-        "장학금"
-      ],
-      "date": "2026.10.22",
-      "target": "원문에서 확인",
-      "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/71/99550/artclView.do",
-      "kind": "school"
-    },
-    {
-      "id": "hknu-99509",
-      "title": "[교내장학금] 2026학년도 2학기 교내장학금(희망나눔, 가족, 성인학습) 신청 안내",
-      "source": "한경국립대학교 장학공지",
-      "category": "경제적 지원",
-      "tags": [
-        "장학금"
-      ],
-      "date": "2026.10.21",
-      "target": "원문에서 확인",
-      "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/71/99509/artclView.do",
-      "kind": "school"
-    },
-    {
-      "id": "hknu-99470",
-      "title": "[국가근로] 2026학년도 2학기 국가근로장학금 일반유형 추가 신청기간 안내",
-      "source": "한경국립대학교 장학공지",
-      "category": "경제적 지원",
-      "tags": [
-        "장학금"
-      ],
-      "date": "2026.10.20",
-      "target": "원문에서 확인",
-      "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/71/99470/artclView.do",
-      "kind": "school"
-    },
-    {
-      "id": "hknu-99468",
-      "title": "[교외장학금] 2026년 2학기 거창군 지역출신 대학생 등록금 지원 안내",
-      "source": "한경국립대학교 장학공지",
-      "category": "경제적 지원",
-      "tags": [
-        "장학금"
-      ],
-      "date": "2026.10.20",
-      "target": "원문에서 확인",
-      "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/71/99468/artclView.do",
-      "kind": "school"
-    },
-    {
-      "id": "hknu-99441",
-      "title": "[교외장학금] 2027년도 한국지도자육성장학재단 신규장학생 선발 안내",
-      "source": "한경국립대학교 장학공지",
-      "category": "경제적 지원",
-      "tags": [
-        "장학금"
-      ],
-      "date": "2026.10.19",
-      "target": "원문에서 확인",
-      "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/71/99441/artclView.do",
-      "kind": "school"
-    },
-    {
-      "id": "hknu-99912",
-      "title": "중점검역관리지역 안내(26년 4분기) 새글",
+      "id": "hknu-100275",
+      "title": "대학생을 위한 학습전략 [AI로 더 잘 배우는 법] 수강 안내 새글",
       "source": "한경국립대학교 한경공지",
       "category": "교내 활동",
       "tags": [
         "교내 활동"
       ],
-      "date": "2026.11.09",
+      "date": "2026.11.24",
       "target": "원문에서 확인",
       "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/69/99912/artclView.do",
+      "url": "https://www.hknu.ac.kr/bbs/kor/69/100275/artclView.do",
       "kind": "school"
     },
     {
-      "id": "hknu-99911",
-      "title": "고용노동부 경계선청년지원사업 \"청년, 경계를 넘어! 커리어 도약!\" 2기 새글",
-      "source": "한경국립대학교 한경공지",
-      "category": "교내 활동",
-      "tags": [
-        "교내 활동"
-      ],
-      "date": "2026.11.09",
-      "target": "원문에서 확인",
-      "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/69/99911/artclView.do",
-      "kind": "school"
-    },
-    {
-      "id": "hknu-99906",
-      "title": "[국립국제교육원] 2027-2028 이스라엘 정부초청 장학생 선발 안내 새글",
-      "source": "한경국립대학교 한경공지",
-      "category": "교내 활동",
-      "tags": [
-        "장학금",
-        "교내 활동"
-      ],
-      "date": "2026.11.09",
-      "target": "원문에서 확인",
-      "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/69/99906/artclView.do",
-      "kind": "school"
-    },
-    {
-      "id": "hknu-99905",
-      "title": "한경국립대학교 기간제근로자(시설관리원) 채용 공고 새글",
+      "id": "hknu-100271",
+      "title": "한경국립대학교 기간제근로자(주차관리원, 시설관리원) 채용 공고 새글",
       "source": "한경국립대학교 한경공지",
       "category": "교내 활동",
       "tags": [
         "취업·멘토링"
       ],
-      "date": "2026.11.09",
+      "date": "2026.11.24",
       "target": "원문에서 확인",
       "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/69/99905/artclView.do",
+      "url": "https://www.hknu.ac.kr/bbs/kor/69/100271/artclView.do",
       "kind": "school"
     },
     {
-      "id": "hknu-99887",
-      "title": "안성시 어린이·사회복지급식관리지원센터 직원 공개채용 최종합격자 발표 새글",
-      "source": "한경국립대학교 한경공지",
-      "category": "교내 활동",
-      "tags": [
-        "취업·멘토링"
-      ],
-      "date": "2026.11.06",
-      "target": "원문에서 확인",
-      "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/69/99887/artclView.do",
-      "kind": "school"
-    },
-    {
-      "id": "hknu-99873",
-      "title": "2027년도 임금교섭 요구 사실 공고 새글",
+      "id": "hknu-100268",
+      "title": "[AIR추진단] 2026학년도 학부모 만족도 조사를 위한 개인정보 동의 참여 안내 새글",
       "source": "한경국립대학교 한경공지",
       "category": "교내 활동",
       "tags": [
         "교내 활동"
       ],
-      "date": "2026.11.06",
+      "date": "2026.11.24",
       "target": "원문에서 확인",
       "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/69/99873/artclView.do",
+      "url": "https://www.hknu.ac.kr/bbs/kor/69/100268/artclView.do",
       "kind": "school"
     },
     {
-      "id": "hknu-99864",
-      "title": "2026년도 한시임기제공무원 7호(시설) 경력경쟁채용 서류전형 합격자 및 면접전형 일정 공 새글",
-      "source": "한경국립대학교 한경공지",
-      "category": "교내 활동",
-      "tags": [
-        "취업·멘토링"
-      ],
-      "date": "2026.11.05",
-      "target": "원문에서 확인",
-      "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/69/99864/artclView.do",
-      "kind": "school"
-    },
-    {
-      "id": "hknu-99843",
-      "title": "한경국립대학교 개인정보 제3자 제공사항 알림 공고 새글",
+      "id": "hknu-100249",
+      "title": "[안성캠퍼스]★ 11.24.(화) 천원의 아침밥 이벤트 안내(새온관생자치회가 쏜다)★ 새글",
       "source": "한경국립대학교 한경공지",
       "category": "교내 활동",
       "tags": [
         "교내 활동"
       ],
-      "date": "2026.11.04",
+      "date": "2026.11.23",
       "target": "원문에서 확인",
       "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/69/99843/artclView.do",
+      "url": "https://www.hknu.ac.kr/bbs/kor/69/100249/artclView.do",
       "kind": "school"
     },
     {
-      "id": "hknu-99829",
-      "title": "한경국립대학교 대학공무직(환경미화) 채용 공고 새글",
+      "id": "hknu-100237",
+      "title": "2026년도 한시임기제공무원 7호(시설) 경력경쟁채용 최종합격자 발표 및 안내사항 새글",
       "source": "한경국립대학교 한경공지",
       "category": "교내 활동",
       "tags": [
         "취업·멘토링"
       ],
-      "date": "2026.11.04",
+      "date": "2026.11.23",
       "target": "원문에서 확인",
       "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/69/99829/artclView.do",
+      "url": "https://www.hknu.ac.kr/bbs/kor/69/100237/artclView.do",
       "kind": "school"
     },
     {
-      "id": "hknu-99816",
-      "title": "[안성캠퍼스] 2026-11월 천원의 아침밥 이벤트 안내 새글",
+      "id": "hknu-100214",
+      "title": "평택시 자원봉사자의 날 기념행사 자원봉사자 모집 안내 새글",
       "source": "한경국립대학교 한경공지",
       "category": "교내 활동",
       "tags": [
         "교내 활동"
       ],
-      "date": "2026.11.03",
+      "date": "2026.11.20",
       "target": "원문에서 확인",
       "condition": "원문에서 확인",
-      "url": "https://www.hknu.ac.kr/bbs/kor/69/99816/artclView.do",
+      "url": "https://www.hknu.ac.kr/bbs/kor/69/100214/artclView.do",
       "kind": "school"
     },
     {
-      "id": "goodgil-c6c4a388ccbc01e252a28805666ae0bd",
-      "title": "[진로/취업]2026-2학기 디자인씽킹 원데이 GX산업 캠프 2차_평택캠(11월16일)",
+      "id": "hknu-100204",
+      "title": "[학생상담센터] 취업불안 조절 집단 프로그램 \"취뽀, 나답게!\" 참여자 새글",
+      "source": "한경국립대학교 한경공지",
+      "category": "교내 활동",
+      "tags": [
+        "취업·멘토링",
+        "교내 활동"
+      ],
+      "date": "2026.11.20",
+      "target": "원문에서 확인",
+      "condition": "원문에서 확인",
+      "url": "https://www.hknu.ac.kr/bbs/kor/69/100204/artclView.do",
+      "kind": "school"
+    },
+    {
+      "id": "hknu-100151",
+      "title": "[교양교육센터] AI를 활용한 영상제작 워크숍 우수작 수상 결과 안내 새글",
+      "source": "한경국립대학교 한경공지",
+      "category": "교내 활동",
+      "tags": [
+        "교내 활동"
+      ],
+      "date": "2026.11.19",
+      "target": "원문에서 확인",
+      "condition": "원문에서 확인",
+      "url": "https://www.hknu.ac.kr/bbs/kor/69/100151/artclView.do",
+      "kind": "school"
+    },
+    {
+      "id": "hknu-100149",
+      "title": "한경국립대학교 대학공무직(환경미화) 채용 서류전형 합격자 및 면접전형 일정 공고 새글",
+      "source": "한경국립대학교 한경공지",
+      "category": "교내 활동",
+      "tags": [
+        "취업·멘토링"
+      ],
+      "date": "2026.11.19",
+      "target": "원문에서 확인",
+      "condition": "원문에서 확인",
+      "url": "https://www.hknu.ac.kr/bbs/kor/69/100149/artclView.do",
+      "kind": "school"
+    },
+    {
+      "id": "hknu-100141",
+      "title": "[기계공학전공] CCTV 시인성 강화 실험을 위한 모형 CCTV 설치 안내 새글",
+      "source": "한경국립대학교 한경공지",
+      "category": "교내 활동",
+      "tags": [
+        "교내 활동"
+      ],
+      "date": "2026.11.18",
+      "target": "원문에서 확인",
+      "condition": "원문에서 확인",
+      "url": "https://www.hknu.ac.kr/bbs/kor/69/100141/artclView.do",
+      "kind": "school"
+    },
+    {
+      "id": "goodgil-f01a79df70ce878beaab76139d00545e",
+      "title": "[전현직자 멘토링] 2026학년도 전현직자 초청 직무 맞춤형 취업 캠프(생명공학, 바이오)",
       "source": "굿길 비교과 프로그램",
       "category": "교내 활동",
       "tags": [
         "취업·멘토링"
       ],
-      "date": "2026.11.05 ~ 2026.11.12",
+      "date": "2026.11.23 ~ 2026.12.17",
+      "target": "단과대학",
+      "condition": "단과대학 / 재학 휴학",
+      "year": "3학년 , 4학년 , 5학년 , 6학년",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-1d60318e1ff488ff7e44af376eb9c5fc",
+      "title": "[전현직자 멘토링] 2026학년도 전현직자 초청 직무 맞춤형 취업 캠프(복지, 공공)",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "취업·멘토링"
+      ],
+      "date": "2026.11.23 ~ 2026.12.07",
+      "target": "단과대학",
+      "condition": "단과대학 / 재학 휴학",
+      "year": "3학년 , 4학년 , 5학년 , 6학년",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-f1fca19a9df0f644d3f9911e16d1955a",
+      "title": "[전현직자 멘토링] 2026학년도 전현직자 초청 직무 맞춤형 취업 캠프(디자인)",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "취업·멘토링"
+      ],
+      "date": "2026.11.23 ~ 2026.12.17",
+      "target": "단과대학",
+      "condition": "단과대학 / 재학 휴학",
+      "year": "3학년 , 4학년 , 5학년 , 6학년",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-9512cd2e1f02934e6fd48a0109061a87",
+      "title": "[전현직자 멘토링] 2026학년도 전현직자 초청 직무 맞춤형 취업 캠프(법학, 행정)",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "취업·멘토링"
+      ],
+      "date": "2026.11.23 ~ 2026.12.14",
+      "target": "단과대학",
+      "condition": "단과대학 / 재학 휴학",
+      "year": "3학년 , 4학년 , 5학년 , 6학년",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-3600f806d53ef30b5a99955934f1924a",
+      "title": "학부(전공) 자율취업활동(스포츠과학전공_취업특강 3차)(2026. 11. 26.)",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "취업·멘토링",
+        "교내 활동"
+      ],
+      "date": "2026.11.17 ~ 2026.11.25",
       "target": "전체",
       "condition": "전체 / 전체",
       "year": "전체",
@@ -330,17 +397,132 @@
       "kind": "goodgil"
     },
     {
-      "id": "goodgil-e55bdb610b7da1b81a51b137675fe68a",
-      "title": "[진로/취업]2026-2학기 HK진로캠프(탐나는 한경인)-레고 경영 시뮬레이션",
+      "id": "goodgil-8d24dcb78a527c284fa746ed066ee0a0",
+      "title": "학부(전공) 자율취업활동(스포츠과학전공_취업특강 2차)(2026. 11. 26.)",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "취업·멘토링",
+        "교내 활동"
+      ],
+      "date": "2026.11.17 ~ 2026.11.25",
+      "target": "전체",
+      "condition": "전체 / 전체",
+      "year": "전체",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-87e16e7a39b17e8bd357cfc407d385db",
+      "title": "[학생상담센터] 불안한 마음을 자신감으로! \"취뽀, 나답게\" 취업불안 조절 집단 프로그램",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "취업·멘토링",
+        "교내 활동"
+      ],
+      "date": "2026.11.17 ~ 2027.01.01",
+      "target": "전체",
+      "condition": "전체 / 재학 휴학 수료",
+      "year": "전체",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-0d22cb4297a2769be2d31969f8033885",
+      "title": "2026학년도 제2차 지역청년 대상 진로취업특강 (경기창조고/11월 27일)",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "취업·멘토링",
+        "교내 활동"
+      ],
+      "date": "2026.11.16 ~ 2026.11.30",
+      "target": "전체",
+      "condition": "전체 / 전체",
+      "year": "전체",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-44c55bdffa0b00c619a4ac7bee0ac2bc",
+      "title": "[창업특강 8회차] 2026년 2학기 HK StartUP&GO 창업특강_평택캠 [8회_지속가능한 GX 미래를 제안하다: 투자자의 마음을 사로잡는 피칭]",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "교내 활동"
+      ],
+      "date": "2026.11.16 ~ 2026.12.02",
+      "target": "전체",
+      "condition": "전체 / 전체",
+      "year": "전체",
+      "campus": "전체",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-cfb2832bd7ce8db0d851fadd12811425",
+      "title": "[진로/취업]2026-2학기 HK진로캠프\"진로 유목민 탈출! 내 직무 찾기 프로젝트\"",
       "source": "굿길 비교과 프로그램",
       "category": "교내 활동",
       "tags": [
         "취업·멘토링"
       ],
-      "date": "2026.11.05 ~ 2026.11.16",
+      "date": "2026.11.16 ~ 2026.11.25",
       "target": "단과대학",
-      "condition": "단과대학 / 전체",
+      "condition": "단과대학 / 재학",
       "year": "전체",
+      "campus": "전체",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-110b1dc2f18b07e53eb0eb5364307116",
+      "title": "[전현직자 멘토링] 2026학년도 전현직자 초청 직무 맞춤형 취업 캠프(건축, 환경)",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "취업·멘토링"
+      ],
+      "date": "2026.11.23 ~ 2026.12.14",
+      "target": "단과대학",
+      "condition": "단과대학 / 재학 휴학",
+      "year": "3학년 , 4학년 , 5학년 , 6학년",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-814f5e60e999a00e5080c3a068ece7b7",
+      "title": "[전현직자 멘토링] 2026학년도 전현직자 초청 직무 맞춤형 취업 캠프(마케팅, 콘텐츠, 경영)",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "취업·멘토링"
+      ],
+      "date": "2026.11.23 ~ 2026.12.14",
+      "target": "단과대학",
+      "condition": "단과대학 / 재학 휴학",
+      "year": "3학년 , 4학년 , 5학년 , 6학년",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-d182a73ca14b7457ba15a9d9865a7fb9",
+      "title": "[전현직자 멘토링] 2026학년도 전현직자 초청 직무 맞춤형 취업 캠프(반도체, 신소제, 화학공학)",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "취업·멘토링"
+      ],
+      "date": "2026.11.23 ~ 2026.12.14",
+      "target": "단과대학",
+      "condition": "단과대학 / 재학 휴학",
+      "year": "3학년 , 4학년 , 5학년 , 6학년",
       "campus": "안성",
       "url": "https://goodgil.hknu.ac.kr/index.do",
       "kind": "goodgil"
@@ -362,22 +544,6 @@
       "kind": "goodgil"
     },
     {
-      "id": "goodgil-e81feab8bb6cebf57117e15455646610",
-      "title": "2026학년도 전공자율선택제 새내기 전공탐색 스토리 공모전",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "공모전"
-      ],
-      "date": "2026.11.02 ~ 2026.11.22",
-      "target": "단과대학",
-      "condition": "단과대학 / 재학",
-      "year": "1학년",
-      "campus": "안성",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
       "id": "goodgil-5d28164d823fbbe88287535ebf9df000",
       "title": "11월 경력개발지원금(외국어 및 자격증)",
       "source": "굿길 비교과 프로그램",
@@ -395,35 +561,18 @@
       "kind": "goodgil"
     },
     {
-      "id": "goodgil-cc922445f85d6e2d30a09c6d249c78e9",
-      "title": "[학생상담센터] 2026-2학기 심리검사(TCI)를 활용한 자기이해 특강",
+      "id": "goodgil-9c01e0aafdb7517d505a666b9ff970e5",
+      "title": "[전현직자 멘토링] 2026학년도 전현직자 초청 직무 맞춤형 취업 캠프(로봇, 전기 분야)",
       "source": "굿길 비교과 프로그램",
       "category": "교내 활동",
       "tags": [
-        "교내 활동"
+        "취업·멘토링"
       ],
-      "date": "2026.10.29 ~ 2026.11.12",
-      "target": "전체",
-      "condition": "전체 / 전체",
-      "year": "전체",
+      "date": "2026.11.23 ~ 2026.12.14",
+      "target": "단과대학",
+      "condition": "단과대학 / 재학 휴학",
+      "year": "3학년 , 4학년 , 5학년 , 6학년",
       "campus": "안성",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-240f5c558c3db52d22b84b01ad8898c8",
-      "title": "2026-2학기 HKNU학습법 특강 3차 (온라인) \"어학연수 없이 성공하는 실전 대학생 영어 연습 노하우\"",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "자격증·어학",
-        "교내 활동"
-      ],
-      "date": "2026.10.21 ~ 2026.12.27",
-      "target": "전체",
-      "condition": "전체 / 전체",
-      "year": "전체",
-      "campus": "전체",
       "url": "https://goodgil.hknu.ac.kr/index.do",
       "kind": "goodgil"
     },
@@ -444,22 +593,6 @@
       "kind": "goodgil"
     },
     {
-      "id": "goodgil-1962750704844cfbbf30917cceaee501",
-      "title": "[평택-학생상담센터]정신건강 특강 \"마음을 읽는 힘, 정신건강 리터러시\"",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "교내 활동"
-      ],
-      "date": "2026.10.26 ~ 2026.11.18",
-      "target": "전체",
-      "condition": "전체 / 전체",
-      "year": "전체",
-      "campus": "평택",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
       "id": "goodgil-99c43e24c26d67c5ee8e9447b6e96c42",
       "title": "2026-2학기 AI 맞춤형 학습(수학)",
       "source": "굿길 비교과 프로그램",
@@ -476,166 +609,241 @@
       "kind": "goodgil"
     },
     {
-      "id": "goodgil-416dc373599623774cb08da4fd59fe9c",
-      "title": "[진로/취업]2026-2학기 산업별  현직자 특강 3_ 자동차산업",
+      "id": "goodgil-bbb006ec2e05a77868614832d01ed5bc",
+      "title": "2026년 하반기 SW 인재양성교육 과정(K-Digital Training 과정)",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "교내 활동"
+      ],
+      "date": "2026.09.09 ~ 2027.02.26",
+      "target": "단과대학",
+      "condition": "단과대학 / 전체",
+      "year": "3학년 , 4학년 , 5학년 , 6학년",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-1f442cefb2431cc44675ac3ceb5c947c",
+      "title": "[사이버캠퍼스] 아주 쉬운 서지관리프로그램 Citeasy 이용 안내",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "교내 활동"
+      ],
+      "date": "2026.09.10 ~ 2026.12.18",
+      "target": "전체",
+      "condition": "전체 / 전체",
+      "year": "전체",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-6121d07355ce163ac396618aab7b4281",
+      "title": "현장실습 참여 우수전공_메덩골 정원 현장 교육",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "교내 활동"
+      ],
+      "date": "2026.11.23 ~ 2026.11.28",
+      "target": "전체",
+      "condition": "전체 / 전체",
+      "year": "전체",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-b9c6985cf2d1f01c7efa85975a382b1b",
+      "title": "제11회 대한민국 소프트웨어대전(AI x 소프트웨이브 2026) 현장견학(정보보안전공, 소프트웨어융합전공)",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "교내 활동"
+      ],
+      "date": "2026.11.23 ~ 2026.12.02",
+      "target": "전체",
+      "condition": "전체 / 재학",
+      "year": "전체",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-0edc17d3657b7a258c4f6f298278fe2e",
+      "title": "현장실습 참여 우수전공_시대표현을 담는 건축실험 특강",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "교내 활동"
+      ],
+      "date": "2026.11.19 ~ 2026.11.26",
+      "target": "전체",
+      "condition": "전체 / 전체",
+      "year": "전체",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-d69d9351d4e3ccaa5b18737329a4622c",
+      "title": "2026년 제24회 컴퓨터공학전공 졸업전시회",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "교내 활동"
+      ],
+      "date": "2026.11.19 ~ 2026.11.28",
+      "target": "전체",
+      "condition": "전체 / 전체",
+      "year": "전체",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-56040f14ab373f9efba0714a5815edf1",
+      "title": "교재교구 전시회 견학",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "교내 활동"
+      ],
+      "date": "2026.11.17 ~ 2026.11.27",
+      "target": "전체",
+      "condition": "전체 / 전체",
+      "year": "전체",
+      "campus": "평택",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-94a33fc55f5d6aa54e882df994c98a31",
+      "title": "취업면접특강",
       "source": "굿길 비교과 프로그램",
       "category": "교내 활동",
       "tags": [
         "취업·멘토링",
         "교내 활동"
       ],
-      "date": "2026.11.02 ~ 2026.11.10",
+      "date": "2026.11.23 ~ 2026.12.01",
       "target": "전체",
       "condition": "전체 / 전체",
       "year": "전체",
-      "campus": "전체",
+      "campus": "평택",
       "url": "https://goodgil.hknu.ac.kr/index.do",
       "kind": "goodgil"
     },
     {
-      "id": "goodgil-614bd2affc5b8b8071e4c011db5eb298",
-      "title": "2026학년도 디자인씽킹 아이디어톤 경진대회",
+      "id": "goodgil-1a167ec39dc32a8f06834013558dcbba",
+      "title": "2026 사회복지 현장견학",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "교내 활동"
+      ],
+      "date": "2026.11.17 ~ 2026.11.30",
+      "target": "전체",
+      "condition": "전체 / 전체",
+      "year": "전체",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-994565534b3b62360ef7e2f036f10fa5",
+      "title": "[육성_제품공간_4학년]2026년 제품공간디자인전공 졸업작품 전시회",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "교내 활동"
+      ],
+      "date": "2026.11.16 ~ 2026.11.27",
+      "target": "단과대학",
+      "condition": "단과대학 / 재학",
+      "year": "3학년 , 4학년",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-1ea8b1ff6483e2524d5ceb461c5f97e7",
+      "title": "2026학년도 행정학 기초 학습동아리",
+      "source": "굿길 비교과 프로그램",
+      "category": "교내 활동",
+      "tags": [
+        "교내 활동"
+      ],
+      "date": "2026.11.16 ~ 2026.11.27",
+      "target": "단과대학",
+      "condition": "단과대학 / 재학",
+      "year": "1학년 , 2학년",
+      "campus": "안성",
+      "url": "https://goodgil.hknu.ac.kr/index.do",
+      "kind": "goodgil"
+    },
+    {
+      "id": "goodgil-3edb4b0523e2ddc4a99d2d381110e06f",
+      "title": "2026학년도 행정학전공 정책아이디어 공모전",
       "source": "굿길 비교과 프로그램",
       "category": "교내 활동",
       "tags": [
         "공모전"
       ],
-      "date": "2026.10.21 ~ 2026.11.15",
+      "date": "2026.11.10 ~ 2026.11.27",
       "target": "단과대학",
       "condition": "단과대학 / 재학",
       "year": "전체",
-      "campus": "전체",
+      "campus": "안성",
       "url": "https://goodgil.hknu.ac.kr/index.do",
       "kind": "goodgil"
     },
     {
-      "id": "goodgil-a3f6b8f0998468757245428ee15ada6c",
-      "title": "2026-2학기 찾아가는 학부(전공)별 진로취업잡기 특강[11/10(화) (평캠)한국수어교육]-해당학과 신청",
+      "id": "goodgil-bf3e33730336a9f2abe902555df09496",
+      "title": "[응용생명] 2026학년도 바이오웰니스 학술제_논문발표",
       "source": "굿길 비교과 프로그램",
       "category": "교내 활동",
       "tags": [
-        "취업·멘토링",
         "교내 활동"
       ],
-      "date": "2026.10.23 ~ 2026.11.10",
-      "target": "단과대학",
-      "condition": "단과대학 / 전체",
-      "year": "전체",
-      "campus": "평택",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-ae9af0a939fc5c9022930202185f9ad4",
-      "title": "2026-2학기 찾아가는 학부(전공)별 진로취업잡기 특강[11/10(화) (평캠)공공행정]-해당학과 신청",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "취업·멘토링",
-        "교내 활동"
-      ],
-      "date": "2026.10.23 ~ 2026.11.10",
-      "target": "단과대학",
-      "condition": "단과대학 / 전체",
-      "year": "전체",
-      "campus": "평택",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-c490813e6db3b6d90a6bdfc8aae396ab",
-      "title": "2026-2학기 학부(전공)별 진로취업잡기 특강[11/10(화) 식물생명환경]-해당학과 신청",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "취업·멘토링",
-        "교내 활동"
-      ],
-      "date": "2026.10.23 ~ 2026.11.10",
-      "target": "단과대학",
-      "condition": "단과대학 / 전체",
+      "date": "2026.11.10 ~ 2026.11.24",
+      "target": "전체",
+      "condition": "전체 / 재학",
       "year": "전체",
       "campus": "안성",
       "url": "https://goodgil.hknu.ac.kr/index.do",
       "kind": "goodgil"
     },
     {
-      "id": "goodgil-d1c0d0b59160b327d61caab7138c8e47",
-      "title": "[창업특강 6회차] 2026년 2학기 HK StartUP&GO 창업특강 [6회_GX × Local: 지역문제 해결을 위한 로컬 디자인씽킹 프로젝트]",
+      "id": "goodgil-24e77169fc5c9e82b57353c295d0042d",
+      "title": "[응용생명] 2026학년도 바이오 웰니스 학술제_동아리발표",
       "source": "굿길 비교과 프로그램",
       "category": "교내 활동",
       "tags": [
         "교내 활동"
       ],
-      "date": "2026.10.12 ~ 2026.11.12",
+      "date": "2026.11.10 ~ 2026.11.24",
       "target": "전체",
-      "condition": "전체 / 전체",
+      "condition": "전체 / 재학",
       "year": "전체",
       "campus": "안성",
       "url": "https://goodgil.hknu.ac.kr/index.do",
       "kind": "goodgil"
     },
     {
-      "id": "goodgil-2823fe3a272c8f73e5d6dc7030436518",
-      "title": "2026-2학기 HKNU학습법 특강 1차 (온라인) \"A+를 부르는 기적의 공부(필기)법\"",
+      "id": "goodgil-ec34e5cf50e822d6a2ec27edf55f7bdf",
+      "title": "2026학년도 제6회 인문디지털콘서트: AI 비교과 성과교류회",
       "source": "굿길 비교과 프로그램",
       "category": "교내 활동",
       "tags": [
         "교내 활동"
       ],
-      "date": "2026.09.28 ~ 2026.12.27",
-      "target": "전체",
-      "condition": "전체 / 전체",
-      "year": "전체",
-      "campus": "전체",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-9a253c8f59d38d873aba09d14e251972",
-      "title": "[평택]학생상담센터 이용수기 공모전",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "공모전"
-      ],
-      "date": "2026.09.14 ~ 2026.11.20",
+      "date": "2026.11.09 ~ 2026.11.26",
       "target": "단과대학",
       "condition": "단과대학 / 재학",
-      "year": "1학년 , 2학년 , 3학년 , 4학년 , 5학년 , 6학년",
-      "campus": "평택",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-a7b599290d0c10d683b4a1c8e7ffcabc",
-      "title": "[진로/취업]2026-2학기 잡카페 특강 10차[채용공고를 읽으면 합격이 보인다/기업 맞춤 지원 전략]",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "취업·멘토링",
-        "교내 활동"
-      ],
-      "date": "2026.10.26 ~ 2026.11.16",
-      "target": "전체",
-      "condition": "전체 / 전체",
-      "year": "전체",
-      "campus": "안성",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-d650ec4921b7105ab1bbe52d24bbd3fa",
-      "title": "[진로/취업]2026-2학기 잡카페 특강 9차[실전면접 대비 전략]",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "취업·멘토링",
-        "교내 활동"
-      ],
-      "date": "2026.10.26 ~ 2026.11.12",
-      "target": "전체",
-      "condition": "전체 / 전체",
       "year": "전체",
       "campus": "안성",
       "url": "https://goodgil.hknu.ac.kr/index.do",
@@ -658,118 +866,6 @@
       "kind": "goodgil"
     },
     {
-      "id": "goodgil-f499e51a6a33e1e94cfa003541463969",
-      "title": "현장실습 참여 우수전공_디자인은 어떻게 책이 되는가? 특강",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "교내 활동"
-      ],
-      "date": "2026.11.06 ~ 2026.11.13",
-      "target": "전체",
-      "condition": "전체 / 전체",
-      "year": "전체",
-      "campus": "안성",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-4efeccb2588c4ebc68b103b10b393cc1",
-      "title": "2026-2학기 산학협력 융·복합 교과목 캡스톤디자인_주거설계를 위한 실무 내용 특강",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "교내 활동"
-      ],
-      "date": "2026.11.06 ~ 2026.11.24",
-      "target": "전체",
-      "condition": "전체 / 전체",
-      "year": "전체",
-      "campus": "안성",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-fcdc8c6cfb619a6f829019012e86dea3",
-      "title": "[육성_건축학] 건축의 유니버설디자인 AI/AX 활용 특강",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "교내 활동"
-      ],
-      "date": "2026.11.06 ~ 2026.11.11",
-      "target": "전체",
-      "condition": "전체 / 전체",
-      "year": "전체",
-      "campus": "안성",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-ac50efb0b2129083d4b215a763f659d0",
-      "title": "2026-2학기 산학협력 융·복합 교과목(산업의료원) 전문가 초청 특강(4차)",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "교내 활동"
-      ],
-      "date": "2026.11.05 ~ 2026.11.10",
-      "target": "",
-      "condition": "/",
-      "year": "전체",
-      "campus": "안성",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-b3eb93e963280afb8397a20423d51337",
-      "title": "산업체 전문가 초청 특강_칠보공예기초 특강",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "교내 활동"
-      ],
-      "date": "2026.11.02 ~ 2026.11.12",
-      "target": "단과대학",
-      "condition": "단과대학 / 재학",
-      "year": "전체",
-      "campus": "안성",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-18db581e7527a379c7626ddee6b370ca",
-      "title": "2026학년도 법학전공 모의 총회 프로그램(2차, 회칙 개정)",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "교내 활동"
-      ],
-      "date": "2026.11.04 ~ 2026.11.11",
-      "target": "단과대학",
-      "condition": "단과대학 / 재학",
-      "year": "1학년 , 2학년 , 3학년 , 4학년",
-      "campus": "안성",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-665d5f4f2b4b6891f777981d2ebcba07",
-      "title": "주얼리컨설팅프로그램_디지털 기반 주얼리 제작 및 AI 상세페이지 콘텐츠 실무",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "교내 활동"
-      ],
-      "date": "2026.10.01 ~ 2026.11.11",
-      "target": "단과대학",
-      "condition": "단과대학 / 재학",
-      "year": "전체",
-      "campus": "평택",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
       "id": "goodgil-e944b13e14cd429aa5cced869ec75e8e",
       "title": "[육성_제품공간]2026년 제품공간디자인전공 과제전",
       "source": "굿길 비교과 프로그램",
@@ -780,55 +876,6 @@
       "date": "2026.10.29 ~ 2026.12.15",
       "target": "전체",
       "condition": "전체 / 재학",
-      "year": "전체",
-      "campus": "안성",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-28e69b276e41ad917b52deb86a08164e",
-      "title": "제7회 한경국립대학교 AI보안경진대회",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "공모전"
-      ],
-      "date": "2026.10.26 ~ 2026.11.11",
-      "target": "전체",
-      "condition": "전체 / 재학 휴학",
-      "year": "전체",
-      "campus": "안성",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-8b9cdeb9ee7bdc20eac5212528c4e111",
-      "title": "[제품공간_학생취업처] Life as a Designer ― 디자이너로 살아가는 삶 특강",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "취업·멘토링",
-        "교내 활동"
-      ],
-      "date": "2026.10.26 ~ 2026.11.10",
-      "target": "전체",
-      "condition": "전체 / 재학",
-      "year": "전체",
-      "campus": "평택",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-51431f825bdbb2e38e83ff07dee949d1",
-      "title": "2026학년도 행정학전공 모의공무원시험",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "교내 활동"
-      ],
-      "date": "2026.10.15 ~ 2026.11.11",
-      "target": "단과대학",
-      "condition": "단과대학 / 재학",
       "year": "전체",
       "campus": "안성",
       "url": "https://goodgil.hknu.ac.kr/index.do",
@@ -883,54 +930,6 @@
       "kind": "goodgil"
     },
     {
-      "id": "goodgil-82e6c61fb2cdb1b639eedcdc9ead63d0",
-      "title": "원예생명공학전공 현장견학(한독의약박물관)",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "교내 활동"
-      ],
-      "date": "2026.09.01 ~ 2026.11.30",
-      "target": "단과대학",
-      "condition": "단과대학 / 재학",
-      "year": "전체",
-      "campus": "안성",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-fc9be6dd01a53b6da4a7623c76a3aff4",
-      "title": "원예생명공학전공 현장견학(진천한미종묘)",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "교내 활동"
-      ],
-      "date": "2026.09.01 ~ 2026.11.30",
-      "target": "단과대학",
-      "condition": "단과대학 / 재학",
-      "year": "전체",
-      "campus": "안성",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
-      "id": "goodgil-45432f8db155080081920e895dfbc340",
-      "title": "원예생명공학전공 현장견학(괴산 원예특작원)",
-      "source": "굿길 비교과 프로그램",
-      "category": "교내 활동",
-      "tags": [
-        "교내 활동"
-      ],
-      "date": "2026.09.01 ~ 2026.11.30",
-      "target": "단과대학",
-      "condition": "단과대학 / 재학",
-      "year": "전체",
-      "campus": "안성",
-      "url": "https://goodgil.hknu.ac.kr/index.do",
-      "kind": "goodgil"
-    },
-    {
       "id": "goodgil-657eed16807fc1e7ed9a30a3082e32a0",
       "title": "특수교육봉사동아리",
       "source": "굿길 비교과 프로그램",
@@ -947,16 +946,16 @@
       "kind": "goodgil"
     },
     {
-      "id": "goodgil-935b36f5f2ba2e07dbfd48bee4272274",
-      "title": "공공행정전공 학술포럼",
+      "id": "goodgil-2cc5a737bae76b686b452bb301b164e8",
+      "title": "모의면접 특강",
       "source": "굿길 비교과 프로그램",
       "category": "교내 활동",
       "tags": [
         "교내 활동"
       ],
-      "date": "2026.10.15 ~ 2026.11.24",
-      "target": "단과대학",
-      "condition": "단과대학 / 재학 휴학 수료 졸업",
+      "date": "2026.11.16 ~ 2026.11.26",
+      "target": "전체",
+      "condition": "전체 / 전체",
       "year": "1학년 , 2학년 , 3학년 , 4학년",
       "campus": "평택",
       "url": "https://goodgil.hknu.ac.kr/index.do",

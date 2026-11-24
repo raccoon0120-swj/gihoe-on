@@ -6,6 +6,7 @@ import {
   feedClosed,
   status as opportunityStatus,
   isClosed,
+  DEMO_DATE,
 } from "./opportunities";
 import type { Opportunity } from "./opportunities";
 import GoalPaths from "./GoalPaths";
@@ -409,7 +410,7 @@ function App({
       )}
       {demo && (
         <div className="demobar">
-          발표 시연 · 2026.11.10 기준{" "}
+          발표 시연 · {DEMO_DATE.replace(/-/g, ".")} 기준{" "}
           <button
             onClick={() => {
               set(blank);

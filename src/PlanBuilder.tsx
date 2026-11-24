@@ -1,5 +1,6 @@
 import {useEffect,useRef,useState,type FormEvent} from 'react';
 import type {CalendarEvent} from './Calendar';
+import {DEMO_DATE} from './opportunities';
 import './planning.css';
 
 type Step={key:string;title:string;date:string};
@@ -13,7 +14,7 @@ function buildSteps(deadline:string,today:string):Step[]{return [
 ].map(step=>({...step,date:step.date<today?today:step.date}));}
 type Props={id:string;title:string;deadline:string|null;demo:boolean;events:CalendarEvent[];onAdd:(events:CalendarEvent[])=>void;onClose:()=>void};
 export default function PlanBuilder({id,title,deadline,demo,events,onAdd,onClose}:Props){
- const today=demo?'2026-11-10':todayKst();
+ const today=demo?DEMO_DATE:todayKst();
  const usable=deadline&&validDate(deadline)&&deadline>=today?deadline:'';
  const [target,setTarget]=useState(usable);
  const [steps,setSteps]=useState<Step[]>(()=>usable?buildSteps(usable,today):[]);
