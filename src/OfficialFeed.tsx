@@ -13,7 +13,8 @@ type Item=typeof data.items[number];
 export default function OfficialFeed({interests,profile,demo,saved,onSave}:{interests:string[];profile:Profile;demo:boolean;saved:SavedOfficial[];onSave:(item:SavedOfficial)=>void}) {
  const [category,setCategory]=useState('전체'),[source,setSource]=useState('전체'),[topic,setTopic]=useState('전체'),[campus,setCampus]=useState('전체'),[mode,setMode]=useState('전체'),[query,setQuery]=useState(''),[count,setCount]=useState(9);
  function eligibility(item:Item) { return assessEligibility(profile,item).status; }
- const scored=data.items.map(item=>({item,match:recommend(item.title,profile,item.tags,interests)}));
+ // Goodgil programs whose application period has ended disappear automatically.
+ const scored=data.items.filter(item=>!feedClosed(item,demo)).map(item=>({item,match:recommend(item.title,profile,item.tags,interests)}));
  const list=scored.filter(({item,match})=>{
   const place='campus' in item?item.campus:'';
   return (category==='전체'||item.tags.includes(category))&&(source==='전체'||item.source===source)&&(topic==='전체'||match.areas.includes(topic))&&(campus==='전체'||place===campus)&&(mode==='전체'||(mode==='추천 공고'&&match.score>0&&!feedClosed(item,demo))||(mode==='관심 분야 일치'&&item.tags.some(t=>interests.includes(t))))&&item.title.toLowerCase().includes(query.trim().toLowerCase());

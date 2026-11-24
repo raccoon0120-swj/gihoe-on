@@ -560,6 +560,8 @@ function App({
               </div>
               <div className="grid">
                 {notices
+                  // Past-deadline notices disappear automatically (saved ones stay in 내 준비함).
+                  .filter((n) => !isClosed(n, demo))
                   .filter((n) =>
                     cat === "교외"
                       ? n.scope === "교외"
