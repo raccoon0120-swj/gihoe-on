@@ -208,10 +208,15 @@ function App({
       ...s,
       checks: { ...s.checks, [id]: toggle(s.checks[id] || [], item) },
     }));
-  const recommended = notices.filter(
-    (n) =>
-      !isClosed(n, demo) && n.tags.some((t) => state.interests.includes(t)),
-  );
+  // Score every opportunity (incl. Wevity/Devpost) by title topic, major, experiences and interest tags.
+  const recommended = notices
+    .filter((n) => !isClosed(n, demo))
+    .map((n) => ({
+      n,
+      result: recommend(`${n.title} ${n.kind}`, profile, n.tags, state.interests),
+    }))
+    .filter((x) => x.result.score > 0)
+    .sort((a, b) => b.result.score - a.result.score);
   const officialRecommendations = officialData.items
     .filter((item) => !feedClosed(item, demo))
     .map((item) => ({
@@ -250,7 +255,7 @@ function App({
         공고 출처 보기 ↗
       </a>
     ) : null;
-  function card(n: Opportunity, recommend = false) {
+  function card(n: Opportunity, reasons?: string[]) {
     return (
       <article className="card" key={n.id}>
         <div className="cardtop">
@@ -317,12 +322,8 @@ function App({
                 : ""}
           </p>
         )}
-        {recommend && (
-          <p className="reason">
-            ✦ 선택한 관심 분야 ‘
-            {n.tags.filter((t) => state.interests.includes(t)).join("’, ‘")}’과
-            일치
-          </p>
+        {reasons && reasons.length > 0 && (
+          <p className="reason">✦ {reasons.join(" / ")}</p>
         )}
         {n.demoOnly && <span className="example">발표 시연용</span>}
       </article>
@@ -480,7 +481,7 @@ function App({
               <div className="sectionhead"><div><span className="sectionnum">FOR YOU</span><h2 id="home-recommendations-title">나에게 맞는 기회</h2><p>선택한 관심 분야와 전공·경험을 바탕으로 살펴볼 공고예요.</p></div><button className="text-link" onClick={() => go("explore")}>공고 전체 보기 →</button></div>
               {officialRecommendations.length || recommended.length ? <div className="grid home-recommendation-grid">
                 {officialRecommendations.map(({item,result})=><article className="card home-official" key={item.id}><div className="cardtop"><span className="status open">{item.source}</span><button className="save" onClick={()=>saveOfficial(item)} aria-label={`${item.title} ${(state.savedOfficial || []).some(x=>x.id===item.id)?'저장 해제':'저장'}`} aria-pressed={(state.savedOfficial || []).some(x=>x.id===item.id)}>{(state.savedOfficial || []).some(x=>x.id===item.id)?'♥':'♡'}</button></div><DeadlineBadge deadline={officialDeadline(item)} demo={demo} closed={feedClosed(item,demo)}/><strong className="home-official-title">{item.title}</strong><p className="reason">✦ {result.reasons.join(" / ")}</p><p className="muted">신청 조건은 원문에서 확인해 주세요.</p><details className="notice-summary-toggle"><summary>신청 정보 자세히 보기</summary><NoticeSummary item={item} profile={profile} checkedAt={officialData.checkedAt}/></details><a className="official-link" href={item.kind==="goodgil"?`https://goodgil.hknu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmInfo.do?encSddpbSeq=${item.id.replace("goodgil-","")}`:item.url} target="_blank" rel="noreferrer">공식 공고 보기 ↗ {item.kind==="goodgil"?"(로그인 필요)":""}</a></article>)}
-                {recommended.slice(0,3).map(n=>card(n,true))}
+                {recommended.slice(0,3).map(({n,result})=>card(n,result.reasons))}
               </div>:<div className="home-recommendation-empty"><img src={import.meta.env.BASE_URL+"assets/hangyeong-happy.png"} alt=""/><div><strong>{state.interests.length?"관련 공고가 아직 없어요":"나에게 맞는 기회를 찾아볼까요?"}</strong><p>{state.interests.length?"다른 관심 분야를 선택하거나 전체 공고를 살펴보세요.":"관심 분야나 내 정보를 설정하면 관련 공고를 보여드려요."}</p></div><button className="secondary" onClick={()=>go("explore")}>공고 둘러보기 →</button></div>}
             </section>
             <section className="home-shortcuts-section" aria-label="빠른 이동"><div className="home-shortcuts-heading"><span className="sectionnum">QUICK LINKS</span><h2>더 둘러보기</h2></div><div className="home-shortcuts">
